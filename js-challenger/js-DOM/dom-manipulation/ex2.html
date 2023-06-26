@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <input type="text" placeholder="Text" readonly />
+      <button type="button">Click Me</button>
+    </div>
+    <script>
+      const button = document.querySelector('#wrapper button')
+
+      const changeInput = () => {
+        const input = document.querySelector('#inputEl')
+        if (input) {
+          input.value = 'Hello World'
+        }
+      }
+
+      button.addEventListener('click', changeInput)
+      const input = document.querySelector('#wrapper input')
+      input.setAttribute('id', 'inputEl')
+    </script>
+  </body>
+</html>

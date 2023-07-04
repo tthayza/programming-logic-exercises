@@ -4,6 +4,9 @@
 
 <h2><b>💡🔗  useful links </b></h2>
 <br>
-<a href="https://www.jschallenger.com/overview"> 🔸 JSchallenger </a>
+
+<a href="https://www.jschallenger.com/overview"> 🔸 JSchallenger </a> <br>
+
+<a href="https://wiki.python.org.br/ListaDeExercicios"> 🔸 Python Brasil </a>
 
 <hr>
